@@ -1,0 +1,2 @@
+#!/bin/bash
+pkg update -y && clear && pkg upgrade -y && clear && pkg install x11-repo -y && clear && pkg install xfce4 tigervnc -y && clear && echo 'xfce4-session &' >> ~/.vnc/xstartup && export DISPLAY=":1" && apt install firefox -y && clear && vncserver
