@@ -1,2 +1,2 @@
 #!/bin/bash
-export DISPLAY=":1" && xfce4-session && clear && vncserver 
+vncserver && export DISPLAY=":1" && xfce4-session && clear && echo 'Your xfce enviroment is ready for use, to connect use vnc viewer from your phone using localhost:5901 or 127.0.0.1:5901. github.com/syrxds/termuxfceinstaller' 
